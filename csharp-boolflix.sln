@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-boolflix", "csharp-boolflix.csproj", "{9CC3B23D-7F78-4E99-B004-FC6547975EC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CC3B23D-7F78-4E99-B004-FC6547975EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CC3B23D-7F78-4E99-B004-FC6547975EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CC3B23D-7F78-4E99-B004-FC6547975EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CC3B23D-7F78-4E99-B004-FC6547975EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65E1DC60-508C-4348-A31B-24729781D7B0}
+	EndGlobalSection
+EndGlobal
