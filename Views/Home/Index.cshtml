@@ -1,8 +1,28 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@model VideoContent
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    
+    <div class="jumbotron ms-jumbo">
+        
+            @if (@Model == null)
+            {
+                <h2>Non ci sono Film nell'elenco'</h2>
+            }
+            else
+            {
+                
+                <img class="jumbo-img" src="@Model.PathImg" alt="@Model.Title">
+                <div class="text-jumbo text-white">
+                    <h1>Titolo: @Model.Title </h1> 
+                </div>
+                <a class="ms-btn btn btn-primary btn-lg px-5" href="#" role="button">Play</a>
+                
+            }
+        
+    </div>
+   
 </div>

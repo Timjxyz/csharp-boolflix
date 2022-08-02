@@ -16,3 +16,22 @@ html {
 body {
   margin-bottom: 60px;
 }
+.jumbo-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.ms-jumbo{
+    position:relative;
+}
+
+.text-jumbo {
+    position: absolute;
+    bottom: 120px;
+    left: 100px;
+}
+.ms-btn {
+    position: absolute;
+    bottom:50px;
+    left:100px;
+}
